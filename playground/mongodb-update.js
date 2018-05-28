@@ -49,7 +49,7 @@ db.collection('User').findOneAndUpdate({
 }, {
 
 	returnOriginal: false
-	
+
 }).then((result) => {
 
 	console.log(result);
